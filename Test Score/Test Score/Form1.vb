@@ -25,6 +25,7 @@
                 ' Convert the input to a Double.
                 If Double.TryParse(strInput, dblTestScores) Then
 
+                    dblTotal += dblTestScores
                     ' Add 1 to the counter.
                     intCount += 1
                 Else
