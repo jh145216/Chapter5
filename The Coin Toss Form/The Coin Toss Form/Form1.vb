@@ -1,5 +1,6 @@
 ﻿Public Class Form1
-
+    Dim HeadsTotal As Integer   ' Declared a global form variable
+    Dim TailsTotal As Integer   ' Declared a global form variable
     Private Sub btnToss_Click(sender As Object, e As EventArgs) Handles btnToss.Click
         Dim intSideUp As Integer     ' To indicate which side is up
         Dim rand As New Random       ' Random number generator
@@ -14,12 +15,17 @@
             ' image and hide the head  image.
             picTails.Visible = True
             picHeads.Visible = False
+            TailsTotal = TailsTotal + 1
         Else
             ' 1 means heads is up, so display the heads
             ' image and hide the tails image.
             picHeads.Visible = True
             picTails.Visible = False
+            HeadsTotal = HeadsTotal + 1
         End If
+
+        lblTailsTotal.Text = TailsTotal
+        lblHeadsTotal.Text = HeadsTotal
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
