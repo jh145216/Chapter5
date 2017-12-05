@@ -95,7 +95,7 @@ Partial Class For_Next_Demo_2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(755, 429)
+        Me.ClientSize = New System.Drawing.Size(636, 429)
         Me.Controls.Add(Me.picLaFerrari)
         Me.Controls.Add(Me.picLamborghiniAventadorSVRoadster)
         Me.Controls.Add(Me.btnReset)
