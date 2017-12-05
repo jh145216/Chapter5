@@ -71,11 +71,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="For Next Demo 2.vb">
+    <Compile Include="Combo Box Demo.Designer.vb">
+      <DependentUpon>Combo Box Demo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Combo Box Demo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="For Next Demo 2.Designer.vb">
-      <DependentUpon>For Next Demo 2.vb</DependentUpon>
+    <Compile Include="Racing Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Racing Game.Designer.vb">
+      <DependentUpon>Racing Game.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu.Designer.vb">
@@ -105,10 +111,31 @@
     <Compile Include="Rock Paper Scissors.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Running Total.Designer.vb">
+      <DependentUpon>Running Total.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Running Total.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test Score.Designer.vb">
+      <DependentUpon>Test Score.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test Score.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="The Coin Toss Form.Designer.vb">
+      <DependentUpon>The Coin Toss Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="The Coin Toss Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="For Next Demo 2.resx">
-      <DependentUpon>For Next Demo 2.vb</DependentUpon>
+    <EmbeddedResource Include="Combo Box Demo.resx">
+      <DependentUpon>Combo Box Demo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Racing Game.resx">
+      <DependentUpon>Racing Game.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
@@ -121,6 +148,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rock Paper Scissors.resx">
       <DependentUpon>Rock Paper Scissors.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Running Total.resx">
+      <DependentUpon>Running Total.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test Score.resx">
+      <DependentUpon>Test Score.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="The Coin Toss Form.resx">
+      <DependentUpon>The Coin Toss Form.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

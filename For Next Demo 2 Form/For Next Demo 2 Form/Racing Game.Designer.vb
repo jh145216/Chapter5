@@ -103,7 +103,7 @@ Partial Class For_Next_Demo_2
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnGo)
         Me.Name = "For_Next_Demo_2"
-        Me.Text = "For_Next_Demo_2"
+        Me.Text = "Racing Game"
         CType(Me.picMcLarenP1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picLamborghiniAventadorSVRoadster, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picLaFerrari, System.ComponentModel.ISupportInitialize).EndInit()

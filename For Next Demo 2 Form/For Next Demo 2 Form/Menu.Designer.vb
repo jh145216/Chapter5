@@ -30,20 +30,24 @@ Partial Class Menu
         Me.btnPG3462 = New System.Windows.Forms.Button()
         Me.btnPG3469 = New System.Windows.Forms.Button()
         Me.btnPG34619 = New System.Windows.Forms.Button()
+        Me.btnComboBoxDemo = New System.Windows.Forms.Button()
+        Me.btnCoinToss = New System.Windows.Forms.Button()
+        Me.btnTestScore = New System.Windows.Forms.Button()
+        Me.btnRunningTotal = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnRockPaperScissors
         '
-        Me.btnRockPaperScissors.Location = New System.Drawing.Point(29, 77)
+        Me.btnRockPaperScissors.Location = New System.Drawing.Point(14, 77)
         Me.btnRockPaperScissors.Name = "btnRockPaperScissors"
-        Me.btnRockPaperScissors.Size = New System.Drawing.Size(75, 37)
+        Me.btnRockPaperScissors.Size = New System.Drawing.Size(90, 47)
         Me.btnRockPaperScissors.TabIndex = 1
         Me.btnRockPaperScissors.Text = "Rock Paper Scissors"
         Me.btnRockPaperScissors.UseVisualStyleBackColor = True
         '
         'BtnForNextDemo2
         '
-        Me.BtnForNextDemo2.Location = New System.Drawing.Point(149, 77)
+        Me.BtnForNextDemo2.Location = New System.Drawing.Point(125, 77)
         Me.BtnForNextDemo2.Name = "BtnForNextDemo2"
         Me.BtnForNextDemo2.Size = New System.Drawing.Size(75, 47)
         Me.BtnForNextDemo2.TabIndex = 2
@@ -52,7 +56,7 @@ Partial Class Menu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(149, 217)
+        Me.btnExit.Location = New System.Drawing.Point(176, 284)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
@@ -71,7 +75,7 @@ Partial Class Menu
         '
         'btnPG3461
         '
-        Me.btnPG3461.Location = New System.Drawing.Point(29, 152)
+        Me.btnPG3461.Location = New System.Drawing.Point(29, 233)
         Me.btnPG3461.Name = "btnPG3461"
         Me.btnPG3461.Size = New System.Drawing.Size(75, 23)
         Me.btnPG3461.TabIndex = 6
@@ -80,7 +84,7 @@ Partial Class Menu
         '
         'btnPG3462
         '
-        Me.btnPG3462.Location = New System.Drawing.Point(125, 152)
+        Me.btnPG3462.Location = New System.Drawing.Point(125, 233)
         Me.btnPG3462.Name = "btnPG3462"
         Me.btnPG3462.Size = New System.Drawing.Size(75, 23)
         Me.btnPG3462.TabIndex = 7
@@ -89,7 +93,7 @@ Partial Class Menu
         '
         'btnPG3469
         '
-        Me.btnPG3469.Location = New System.Drawing.Point(226, 152)
+        Me.btnPG3469.Location = New System.Drawing.Point(226, 233)
         Me.btnPG3469.Name = "btnPG3469"
         Me.btnPG3469.Size = New System.Drawing.Size(75, 23)
         Me.btnPG3469.TabIndex = 8
@@ -98,18 +102,58 @@ Partial Class Menu
         '
         'btnPG34619
         '
-        Me.btnPG34619.Location = New System.Drawing.Point(323, 152)
+        Me.btnPG34619.Location = New System.Drawing.Point(323, 233)
         Me.btnPG34619.Name = "btnPG34619"
         Me.btnPG34619.Size = New System.Drawing.Size(75, 23)
         Me.btnPG34619.TabIndex = 9
         Me.btnPG34619.Text = "Pg346#19"
         Me.btnPG34619.UseVisualStyleBackColor = True
         '
+        'btnComboBoxDemo
+        '
+        Me.btnComboBoxDemo.Location = New System.Drawing.Point(226, 77)
+        Me.btnComboBoxDemo.Name = "btnComboBoxDemo"
+        Me.btnComboBoxDemo.Size = New System.Drawing.Size(75, 47)
+        Me.btnComboBoxDemo.TabIndex = 10
+        Me.btnComboBoxDemo.Text = "Combo Box Demo"
+        Me.btnComboBoxDemo.UseVisualStyleBackColor = True
+        '
+        'btnCoinToss
+        '
+        Me.btnCoinToss.Location = New System.Drawing.Point(323, 77)
+        Me.btnCoinToss.Name = "btnCoinToss"
+        Me.btnCoinToss.Size = New System.Drawing.Size(75, 47)
+        Me.btnCoinToss.TabIndex = 11
+        Me.btnCoinToss.Text = "The Coin Toss Form"
+        Me.btnCoinToss.UseVisualStyleBackColor = True
+        '
+        'btnTestScore
+        '
+        Me.btnTestScore.Location = New System.Drawing.Point(125, 164)
+        Me.btnTestScore.Name = "btnTestScore"
+        Me.btnTestScore.Size = New System.Drawing.Size(75, 47)
+        Me.btnTestScore.TabIndex = 12
+        Me.btnTestScore.Text = "Test Score"
+        Me.btnTestScore.UseVisualStyleBackColor = True
+        '
+        'btnRunningTotal
+        '
+        Me.btnRunningTotal.Location = New System.Drawing.Point(226, 164)
+        Me.btnRunningTotal.Name = "btnRunningTotal"
+        Me.btnRunningTotal.Size = New System.Drawing.Size(75, 47)
+        Me.btnRunningTotal.TabIndex = 13
+        Me.btnRunningTotal.Text = "Running Total"
+        Me.btnRunningTotal.UseVisualStyleBackColor = True
+        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(419, 265)
+        Me.ClientSize = New System.Drawing.Size(419, 321)
+        Me.Controls.Add(Me.btnRunningTotal)
+        Me.Controls.Add(Me.btnTestScore)
+        Me.Controls.Add(Me.btnCoinToss)
+        Me.Controls.Add(Me.btnComboBoxDemo)
         Me.Controls.Add(Me.btnPG34619)
         Me.Controls.Add(Me.btnPG3469)
         Me.Controls.Add(Me.btnPG3462)
@@ -132,4 +176,8 @@ Partial Class Menu
     Friend WithEvents btnPG3462 As System.Windows.Forms.Button
     Friend WithEvents btnPG3469 As System.Windows.Forms.Button
     Friend WithEvents btnPG34619 As System.Windows.Forms.Button
+    Friend WithEvents btnComboBoxDemo As System.Windows.Forms.Button
+    Friend WithEvents btnCoinToss As System.Windows.Forms.Button
+    Friend WithEvents btnTestScore As System.Windows.Forms.Button
+    Friend WithEvents btnRunningTotal As System.Windows.Forms.Button
 End Class

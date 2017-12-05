@@ -13,4 +13,24 @@
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
+
+    Private Sub btnComboBoxDemo_Click(sender As Object, e As EventArgs) Handles btnComboBoxDemo.Click
+        Dim box = New Combo_Box_Demo()
+        box.Show()
+    End Sub
+
+    Private Sub btnCoinToss_Click(sender As Object, e As EventArgs) Handles btnCoinToss.Click
+        Dim box = New The_Coin_Toss_Form()
+        box.Show()
+    End Sub
+
+    Private Sub btnTestScore_Click(sender As Object, e As EventArgs) Handles btnTestScore.Click
+        Dim box = New Test_Score()
+        box.Show()
+    End Sub
+
+    Private Sub btnRunningTotal_Click(sender As Object, e As EventArgs) Handles btnRunningTotal.Click
+        Dim box = New Running_Total()
+        box.Show()
+    End Sub
 End Class
