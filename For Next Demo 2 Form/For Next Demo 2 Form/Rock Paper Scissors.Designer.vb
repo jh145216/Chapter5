@@ -28,6 +28,8 @@ Partial Class Rock_Paper_Scissors
         Me.picScissors = New System.Windows.Forms.PictureBox()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.lblResult = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblWins = New System.Windows.Forms.Label()
         CType(Me.picRock, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picPaper, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picScissors, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -80,11 +82,31 @@ Partial Class Rock_Paper_Scissors
         Me.lblResult.Size = New System.Drawing.Size(295, 74)
         Me.lblResult.TabIndex = 6
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(23, 270)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(66, 15)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Your Wins"
+        '
+        'lblWins
+        '
+        Me.lblWins.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblWins.Location = New System.Drawing.Point(101, 268)
+        Me.lblWins.Name = "lblWins"
+        Me.lblWins.Size = New System.Drawing.Size(55, 30)
+        Me.lblWins.TabIndex = 8
+        '
         'Rock_Paper_Scissors
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(496, 275)
+        Me.ClientSize = New System.Drawing.Size(499, 314)
+        Me.Controls.Add(Me.lblWins)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.picScissors)
@@ -96,6 +118,7 @@ Partial Class Rock_Paper_Scissors
         CType(Me.picPaper, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picScissors, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents picRock As System.Windows.Forms.PictureBox
@@ -103,4 +126,6 @@ Partial Class Rock_Paper_Scissors
     Friend WithEvents picScissors As System.Windows.Forms.PictureBox
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents lblResult As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblWins As System.Windows.Forms.Label
 End Class
