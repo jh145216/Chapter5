@@ -117,6 +117,12 @@
     <Compile Include="Running Total.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Sum of Number form.Designer.vb">
+      <DependentUpon>Sum of Number form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sum of Number form.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Test Score.Designer.vb">
       <DependentUpon>Test Score.vb</DependentUpon>
     </Compile>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Running Total.resx">
       <DependentUpon>Running Total.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sum of Number form.resx">
+      <DependentUpon>Sum of Number form.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test Score.resx">
       <DependentUpon>Test Score.vb</DependentUpon>

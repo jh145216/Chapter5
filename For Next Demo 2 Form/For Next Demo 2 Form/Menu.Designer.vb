@@ -26,10 +26,10 @@ Partial Class Menu
         Me.BtnForNextDemo2 = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnPG3461 = New System.Windows.Forms.Button()
-        Me.btnPG3462 = New System.Windows.Forms.Button()
-        Me.btnPG3469 = New System.Windows.Forms.Button()
-        Me.btnPG34619 = New System.Windows.Forms.Button()
+        Me.btnSumNumber = New System.Windows.Forms.Button()
+        Me.btnDistance = New System.Windows.Forms.Button()
+        Me.btnPopulation = New System.Windows.Forms.Button()
+        Me.btnGuessingGame = New System.Windows.Forms.Button()
         Me.btnComboBoxDemo = New System.Windows.Forms.Button()
         Me.btnCoinToss = New System.Windows.Forms.Button()
         Me.btnTestScore = New System.Windows.Forms.Button()
@@ -73,41 +73,41 @@ Partial Class Menu
         Me.Label1.TabIndex = 5
         Me.Label1.Text = "Program Menu"
         '
-        'btnPG3461
+        'btnSumNumber
         '
-        Me.btnPG3461.Location = New System.Drawing.Point(29, 233)
-        Me.btnPG3461.Name = "btnPG3461"
-        Me.btnPG3461.Size = New System.Drawing.Size(75, 23)
-        Me.btnPG3461.TabIndex = 6
-        Me.btnPG3461.Text = "Pg346#1"
-        Me.btnPG3461.UseVisualStyleBackColor = True
+        Me.btnSumNumber.Location = New System.Drawing.Point(29, 227)
+        Me.btnSumNumber.Name = "btnSumNumber"
+        Me.btnSumNumber.Size = New System.Drawing.Size(75, 45)
+        Me.btnSumNumber.TabIndex = 6
+        Me.btnSumNumber.Text = "Sum of Number form"
+        Me.btnSumNumber.UseVisualStyleBackColor = True
         '
-        'btnPG3462
+        'btnDistance
         '
-        Me.btnPG3462.Location = New System.Drawing.Point(125, 233)
-        Me.btnPG3462.Name = "btnPG3462"
-        Me.btnPG3462.Size = New System.Drawing.Size(75, 23)
-        Me.btnPG3462.TabIndex = 7
-        Me.btnPG3462.Text = "Pg346#2"
-        Me.btnPG3462.UseVisualStyleBackColor = True
+        Me.btnDistance.Location = New System.Drawing.Point(125, 227)
+        Me.btnDistance.Name = "btnDistance"
+        Me.btnDistance.Size = New System.Drawing.Size(75, 45)
+        Me.btnDistance.TabIndex = 7
+        Me.btnDistance.Text = "Distance Calculator"
+        Me.btnDistance.UseVisualStyleBackColor = True
         '
-        'btnPG3469
+        'btnPopulation
         '
-        Me.btnPG3469.Location = New System.Drawing.Point(226, 233)
-        Me.btnPG3469.Name = "btnPG3469"
-        Me.btnPG3469.Size = New System.Drawing.Size(75, 23)
-        Me.btnPG3469.TabIndex = 8
-        Me.btnPG3469.Text = "Pg346#9"
-        Me.btnPG3469.UseVisualStyleBackColor = True
+        Me.btnPopulation.Location = New System.Drawing.Point(226, 227)
+        Me.btnPopulation.Name = "btnPopulation"
+        Me.btnPopulation.Size = New System.Drawing.Size(75, 45)
+        Me.btnPopulation.TabIndex = 8
+        Me.btnPopulation.Text = "Population"
+        Me.btnPopulation.UseVisualStyleBackColor = True
         '
-        'btnPG34619
+        'btnGuessingGame
         '
-        Me.btnPG34619.Location = New System.Drawing.Point(323, 233)
-        Me.btnPG34619.Name = "btnPG34619"
-        Me.btnPG34619.Size = New System.Drawing.Size(75, 23)
-        Me.btnPG34619.TabIndex = 9
-        Me.btnPG34619.Text = "Pg346#19"
-        Me.btnPG34619.UseVisualStyleBackColor = True
+        Me.btnGuessingGame.Location = New System.Drawing.Point(314, 227)
+        Me.btnGuessingGame.Name = "btnGuessingGame"
+        Me.btnGuessingGame.Size = New System.Drawing.Size(84, 80)
+        Me.btnGuessingGame.TabIndex = 9
+        Me.btnGuessingGame.Text = "Random Number Guessing Game Enhancement"
+        Me.btnGuessingGame.UseVisualStyleBackColor = True
         '
         'btnComboBoxDemo
         '
@@ -129,7 +129,7 @@ Partial Class Menu
         '
         'btnTestScore
         '
-        Me.btnTestScore.Location = New System.Drawing.Point(125, 164)
+        Me.btnTestScore.Location = New System.Drawing.Point(125, 153)
         Me.btnTestScore.Name = "btnTestScore"
         Me.btnTestScore.Size = New System.Drawing.Size(75, 47)
         Me.btnTestScore.TabIndex = 12
@@ -138,7 +138,7 @@ Partial Class Menu
         '
         'btnRunningTotal
         '
-        Me.btnRunningTotal.Location = New System.Drawing.Point(226, 164)
+        Me.btnRunningTotal.Location = New System.Drawing.Point(226, 153)
         Me.btnRunningTotal.Name = "btnRunningTotal"
         Me.btnRunningTotal.Size = New System.Drawing.Size(75, 47)
         Me.btnRunningTotal.TabIndex = 13
@@ -154,10 +154,10 @@ Partial Class Menu
         Me.Controls.Add(Me.btnTestScore)
         Me.Controls.Add(Me.btnCoinToss)
         Me.Controls.Add(Me.btnComboBoxDemo)
-        Me.Controls.Add(Me.btnPG34619)
-        Me.Controls.Add(Me.btnPG3469)
-        Me.Controls.Add(Me.btnPG3462)
-        Me.Controls.Add(Me.btnPG3461)
+        Me.Controls.Add(Me.btnGuessingGame)
+        Me.Controls.Add(Me.btnPopulation)
+        Me.Controls.Add(Me.btnDistance)
+        Me.Controls.Add(Me.btnSumNumber)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.BtnForNextDemo2)
@@ -172,10 +172,10 @@ Partial Class Menu
     Friend WithEvents BtnForNextDemo2 As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents btnPG3461 As System.Windows.Forms.Button
-    Friend WithEvents btnPG3462 As System.Windows.Forms.Button
-    Friend WithEvents btnPG3469 As System.Windows.Forms.Button
-    Friend WithEvents btnPG34619 As System.Windows.Forms.Button
+    Friend WithEvents btnSumNumber As System.Windows.Forms.Button
+    Friend WithEvents btnDistance As System.Windows.Forms.Button
+    Friend WithEvents btnPopulation As System.Windows.Forms.Button
+    Friend WithEvents btnGuessingGame As System.Windows.Forms.Button
     Friend WithEvents btnComboBoxDemo As System.Windows.Forms.Button
     Friend WithEvents btnCoinToss As System.Windows.Forms.Button
     Friend WithEvents btnTestScore As System.Windows.Forms.Button

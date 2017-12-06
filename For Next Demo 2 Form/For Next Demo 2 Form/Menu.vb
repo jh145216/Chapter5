@@ -33,4 +33,9 @@
         Dim box = New Running_Total()
         box.Show()
     End Sub
+
+    Private Sub btnSumNumber_Click(sender As Object, e As EventArgs) Handles btnSumNumber.Click
+        Dim box = New Sum_of_Number_form()
+        box.Show()
+    End Sub
 End Class
