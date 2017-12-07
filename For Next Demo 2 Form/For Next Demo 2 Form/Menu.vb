@@ -38,4 +38,9 @@
         Dim box = New Sum_of_Number_form()
         box.Show()
     End Sub
+
+    Private Sub btnDistance_Click(sender As Object, e As EventArgs) Handles btnDistance.Click
+        Dim box = New Distance_Calculator()
+        box.Show()
+    End Sub
 End Class
