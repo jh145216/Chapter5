@@ -83,6 +83,12 @@
     <Compile Include="Distance Calculator.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Population.Designer.vb">
+      <DependentUpon>Population.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Population.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Racing Game.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Random Number Game.Designer.vb">
+      <DependentUpon>Random Number Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Random Number Game.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Rock Paper Scissors.Designer.vb">
       <DependentUpon>Rock Paper Scissors.vb</DependentUpon>
@@ -149,6 +161,9 @@
     <EmbeddedResource Include="Distance Calculator.resx">
       <DependentUpon>Distance Calculator.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Population.resx">
+      <DependentUpon>Population.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Racing Game.resx">
       <DependentUpon>Racing Game.vb</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +175,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Random Number Game.resx">
+      <DependentUpon>Random Number Game.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rock Paper Scissors.resx">
       <DependentUpon>Rock Paper Scissors.vb</DependentUpon>

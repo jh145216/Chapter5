@@ -34,7 +34,6 @@ Partial Class Menu
         Me.btnCoinToss = New System.Windows.Forms.Button()
         Me.btnTestScore = New System.Windows.Forms.Button()
         Me.btnRunningTotal = New System.Windows.Forms.Button()
-        Me.btnRandom = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnRockPaperScissors
@@ -103,7 +102,7 @@ Partial Class Menu
         '
         'btnGuessingGame
         '
-        Me.btnGuessingGame.Location = New System.Drawing.Point(314, 227)
+        Me.btnGuessingGame.Location = New System.Drawing.Point(314, 192)
         Me.btnGuessingGame.Name = "btnGuessingGame"
         Me.btnGuessingGame.Size = New System.Drawing.Size(84, 80)
         Me.btnGuessingGame.TabIndex = 9
@@ -146,21 +145,11 @@ Partial Class Menu
         Me.btnRunningTotal.Text = "Running Total"
         Me.btnRunningTotal.UseVisualStyleBackColor = True
         '
-        'btnRandom
-        '
-        Me.btnRandom.Location = New System.Drawing.Point(314, 153)
-        Me.btnRandom.Name = "btnRandom"
-        Me.btnRandom.Size = New System.Drawing.Size(84, 47)
-        Me.btnRandom.TabIndex = 14
-        Me.btnRandom.Text = "Random Number Guessing Game"
-        Me.btnRandom.UseVisualStyleBackColor = True
-        '
         'Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(419, 318)
-        Me.Controls.Add(Me.btnRandom)
         Me.Controls.Add(Me.btnRunningTotal)
         Me.Controls.Add(Me.btnTestScore)
         Me.Controls.Add(Me.btnCoinToss)
@@ -191,5 +180,4 @@ Partial Class Menu
     Friend WithEvents btnCoinToss As System.Windows.Forms.Button
     Friend WithEvents btnTestScore As System.Windows.Forms.Button
     Friend WithEvents btnRunningTotal As System.Windows.Forms.Button
-    Friend WithEvents btnRandom As System.Windows.Forms.Button
 End Class

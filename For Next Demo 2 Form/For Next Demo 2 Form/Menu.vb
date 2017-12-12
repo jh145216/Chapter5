@@ -49,8 +49,8 @@
         box.Show()
     End Sub
 
-    Private Sub btnRandom_Click(sender As Object, e As EventArgs) Handles btnRandom.Click
-        Dim box = New Random_Number_Guessing_Game()
+    Private Sub btnGuessingGame_Click(sender As Object, e As EventArgs) Handles btnGuessingGame.Click
+        Dim box = New Random_Number_Game()
         box.Show()
     End Sub
 End Class
